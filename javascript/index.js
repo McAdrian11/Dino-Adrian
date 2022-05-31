@@ -60,7 +60,7 @@ var dino;
 var textoScore;
 var suelo;
 var gameOver;
-var button;
+let button = document.getElementsByClassName("button");
 
 function Start() {
   gameOver = document.querySelector(".none");
@@ -90,6 +90,10 @@ function HandleKeyDown(ev) {
     Saltar();
   }
 }
+
+document.querySelector(".button").onclick = function () {
+  Saltar();
+};
 
 function Saltar() {
   if (dinoPosY === sueloY) {

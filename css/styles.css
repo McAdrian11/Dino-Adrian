@@ -96,6 +96,14 @@ body {
   background: url(../img/nube.png) no-repeat;
   background-size: 92px 26px;
 }
+.button{
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+}
 .points {
   position: absolute;
   right: 40px;
@@ -150,6 +158,9 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .button{
+    display: block;
+  }
   .points {
     top: 35%;
     right: 20px;
