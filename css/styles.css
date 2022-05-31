@@ -178,7 +178,7 @@ a:hover {
     text-shadow: 1px 1px 0 rgb(5, 5, 5);
   }
   .contenedor{
-    width: auto;
-    height: auto;
+    /* width: 280px; */
+    height: 40%;
   }
 }
