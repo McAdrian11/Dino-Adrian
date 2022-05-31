@@ -13,7 +13,7 @@ body {
 
 .contenedor {
   width: 1920px;
-  height: 280px;
+  height: 100%;
   margin: 0 auto;
 
   position: relative;
