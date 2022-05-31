@@ -8,6 +8,7 @@ body {
   background: #000000;
   display: flex;
   align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .contenedor {
@@ -127,7 +128,6 @@ h1 {
 .game-over {
   color: #dd0700;
   font-size: 80px;
-  font-family: Impact;
   font-weight: 700;
   text-shadow: 1px 1px 0 rgb(5, 5, 5);
 }
@@ -149,7 +149,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .points {
     top: 35%;
     right: 20px;
@@ -161,5 +161,11 @@ a:hover {
     font-family: Arial;
     font-weight: bold;
     font-size: 30px;
+  }
+  .game-over {
+    color: #dd0700;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 rgb(5, 5, 5);
   }
 }
