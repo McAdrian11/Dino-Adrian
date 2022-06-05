@@ -205,13 +205,13 @@ function GanarPuntos() {
   score++;
   textoScore.innerText = score;
   if (score == 10) {
-    gameVel = 1.2;
+    gameVel = 1.1;
     contenedor.classList.add("mediodia");
   } else if (score == 30) {
-    gameVel = 1.7;
+    gameVel = 1.4;
     contenedor.classList.add("tarde");
   } else if (score == 60) {
-    gameVel = 2.5;
+    gameVel = 2.0;
     contenedor.classList.add("noche");
   }
   suelo.style.animationDuration = 3 / gameVel + "s";
