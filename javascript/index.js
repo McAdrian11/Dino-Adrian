@@ -207,10 +207,10 @@ function GanarPuntos() {
   if (score == 10) {
     gameVel = 1.1;
     contenedor.classList.add("mediodia");
-  } else if (score == 30) {
+  } else if (score == 25) {
     gameVel = 1.4;
     contenedor.classList.add("tarde");
-  } else if (score == 60) {
+  } else if (score == 45) {
     gameVel = 2.0;
     contenedor.classList.add("noche");
   }
